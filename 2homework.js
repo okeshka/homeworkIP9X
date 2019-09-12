@@ -1,3 +1,4 @@
+// задание №2
 // поднятие
 console.log(host());
 function host () {

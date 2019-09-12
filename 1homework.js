@@ -1,3 +1,4 @@
+//задание № 1
 //идентификаторы
 let name = "Oleg";
 const birth = 1982;
@@ -113,5 +114,3 @@ function findPhoneByName(name) {
     }
 }
 findPhoneByName('Marcus Aurelius');
-
-
