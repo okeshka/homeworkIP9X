@@ -114,9 +114,4 @@ function findPhoneByName(name) {
 }
 findPhoneByName('Marcus Aurelius');
 
-// поднятие
-console.log(host());
-function host () {
-    let a = 3;
-    return a
-}
+

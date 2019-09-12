@@ -1,3 +1,9 @@
+// поднятие
+console.log(host());
+function host () {
+    let a = 3;
+    return a
+}
 //скалярные и сылочные типы данных
 const a = 5;
 const inc = numbr => numbr*2;
