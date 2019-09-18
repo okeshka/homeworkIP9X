@@ -41,7 +41,7 @@ for (let i = 1; i<=5; i++)
 console.log(average(square(i), qube(i)));
 
 //Обекты
-const name = "Oleg";
+{const name = "Oleg";
 let fio = {name};
 let zio = {name};
 console.log(fio);
@@ -60,7 +60,7 @@ function createUser (name, city) {
 console.log({name: name, city: city})
 };
 createUser('Marcus Aurelius', 'Roma');
-
+}
 //Массивы
  let addressBook = [
      {
@@ -103,6 +103,7 @@ function findPhoneByName(name) {
    findPhoneByName('Marcus Aurelius');
 
  //хеш таблицы
+ {
  let addressBook = {
         name: 'Marcus Aurelius',
         phone: '+380445554433'
@@ -114,3 +115,4 @@ function findPhoneByName(name) {
     }
 }
 findPhoneByName('Marcus Aurelius');
+ }
